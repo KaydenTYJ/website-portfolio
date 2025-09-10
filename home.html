@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio • Tan Yi Jie Kayden</title>
+  <meta name="description" content="Portfolio website for Your Name — projects, experience, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link href="home.css" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#top" class="brand">Kayden&nbsp;Tan Yi Jie<span class="dot">.</span></a>
+      <nav class="nav-list" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a class="btn" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="container">
+    <section class="hero" aria-label="Intro">
+      <div>
+        <div class="pill" aria-hidden="true">Open to opportunities!</div>
+        <h1 class="headline">Hi, I’m <span class="grad">Kayden</span> — a cybersecurity enthusiast and student</h1>
+        <p class="tagline">Diploma student in Cybersecurity & Digital Forensics at Singapore Polytechnic, with a passion for ethical hacking, penetration testing, and securing systems.</p>
+        <div style="display:flex; gap:.8rem; flex-wrap: wrap;">
+          <a class="btn" href="mailto:kaydentan1811@gmail.com">Email me</a>
+          <a class="btn" href="#projects">See projects</a>
+          <a class="btn" href="https://www.linkedin.com/in/kayden-tan" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <div class="stat-grid">
+          <div class="stat"><div class="n">2</div><div class="mutetext">Projects</div></div>
+          <div class="stat"><div class="n">1</div><div class="mutetext">Hackathons</div></div>
+          <div class="stat"><div class="n"></div><div class="mutetext">More To Come!</div></div>
+        </div>
+        <div style="margin-top:1rem; display:grid; gap:.6rem;">
+          <div class="mutetext">Currently learning</div>
+          <div class="chipset">
+            <span class="chip">Malware Reverse Engineering</span>
+            <span class="chip">Blockchain</span>
+            <span class="chip">Amazon Web Service (AWS)</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- About -->
+    <section id="about" aria-label="About me">
+      <h2 class="section-title">About</h2>
+      <div class="about">
+        <article class="about-card">
+          <p>
+            I am a tech fanatic with a strong interest in cybersecurity, currently pursuing a Diploma in Cybersecurity at Singapore Polytechnic. My curiosity drives me to explore how systems are exploited and secured, with a focus on ethical hacking and digital Forensics.
+          </p>
+          <p>
+            Outside of code, I stay active by going to climbing gym and explore new trends. I’m currently seeking internships and freelance projects.
+          </p>
+        </article>
+        <aside class="about-card">
+          <h3 style="margin-top:0">Quick facts</h3>
+          <ul>
+            <li>Location: Singapore (GMT+8)</li>
+            <li>Diploma: Cybersecurity, SP</li>
+            <li>Interests: Cybersecurity, Games, Climbing</li>
+            <li>Availability: ~Most Days</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" aria-label="Skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="chipset">
+        <span class="chip">Cybersecurity</span>
+        <span class="chip">Ethical Hacking</span>
+        <span class="chip">Digital Forensics</span>
+        <span class="chip">Windows/Linux Administration</span>
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Node.js</span>
+        <span class="chip">REST APIs</span>
+        <span class="chip">MySQL</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" aria-label="Projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <!-- Card 1 -->
+        <article class="card">
+          <div class="thumb">
+            <img src="img/projectone.png" alt="Project preview" style="width:100%; height:auto;">
+          </div>
+          <div class="body">
+            <h3>Securing Microsoft Windows</h3>
+            <p>Securing Windows and Active Directory Report</p>
+            <div class="meta">
+              <span class="mutetext">Windows • Active Directory • Cybersecurity</span>
+              <a class="btn" href="https://www.canva.com/design/DAGuSXT8DSQ/vUIWXCy2XIc6R5uJ7fPmJg/view?utm_content=DAGuSXT8DSQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcabefcbed7" target="_blank" rel="noopener">View</a>
+            </div>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article class="card">
+          <div class="thumb">
+            <img src="img/project2.png" alt="Project preview" style="width:100%; height:auto;">
+          </div>
+          <div class="body">
+            <h3>Bug Shield Website</h3>
+            <p>Website fully integrated with Backend</p>
+            <div class="meta">
+              <span class="mutetext">HTML/CSS/JS • Express • MYSQL</span>
+              <a class="btn" href="https://youtu.be/Qtaak02CzUo" target="_blank" rel="noopener">View</a>
+            </div>
+          </div>
+        </article>
+        <!-- Card 3 -->
+        <!-- <article class="card">
+          <div class="thumb"><span>Preview image</span></div>
+          <div class="body">
+            <h3>Project Three</h3>
+            <p>Landing page with advanced CSS animations and accessible components.</p>
+            <div class="meta">
+              <span class="mutetext">HTML • CSS • a11y</span>
+              <a class="btn" href="#" target="_blank" rel="noopener">Case study</a>
+            </div>
+          </div>
+        </article> -->
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Warehouse Assistant — Hall of Goods</h3>
+            <div class="mutetext">Sep 2024 • Singapore</div>
+            <ul>
+              <li>Managed online e-commerce orders, inventory tracking, and shipment packing for timely delivery.</li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <h3>Warehouse Worker — Maersk Group</h3>
+            <div class="mutetext">Nov 2023 • Singapore</div>
+            <ul>
+              <li>Handled picking and packing of products efficiently.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    <!-- Contact -->
+    <section id="contact" aria-label="Contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div class="about-card">
+          <p class="mutetext">Prefer email? Reach me at</p>
+          <p><a href="mailto:you@example.com">kaydentan1811@gmail.com</a></p>
+          <p class="mutetext">Or find me on:</p>
+          <p>
+            <a href="https://github.com/KaydenTYJ" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://www.linkedin.com/in/kayden-tan" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap;">
+      <span>© <span id="y"></span> Kayden Tan</span>
+      <span class="mutetext">Built with HTML & modern CSS</span>
+    </div>
+  </footer>
+
+  <script>
+    // Set year
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
